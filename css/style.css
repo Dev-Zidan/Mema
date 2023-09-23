@@ -422,6 +422,7 @@ main .container>a:hover,
     color: #ccd6f6;
 }
 
+
 .about .content .technologies .technology__icon {
     padding: 8px;
     border-radius: 6px;
@@ -450,7 +451,7 @@ main .container>a:hover,
 }
 
 .about .content .technologies .technology:nth-child(6) .technology__icon {
-    background-color: #ff3d0026;
+    background-color: #007acc26;
 }
 
 .about .image {
@@ -519,6 +520,7 @@ main .container>a:hover,
 /* Projects */
 .projects .container {
     max-width: 1000px;
+    
 }
 
 .projects h1 {
@@ -553,6 +555,7 @@ main .container>a:hover,
 
 .projects .main-projects .project article>a {
     display: block;
+    justify-content: space-between;
     color: #ccd6f6;
     text-transform: capitalize;
     font-size: clamp(24px, 5vw, 28px);
@@ -632,14 +635,22 @@ main .container>a:hover,
 }
 
 .projects .main-projects .project:nth-child(2) .image {
-    background: url("../images/projects/koppee.webp") no-repeat center;
+    background: url("../images/projects/nokhba.png") no-repeat center;
     background-size: cover;
 }
 
-.projects .main-projects .project:last-child .image {
-    background: url("../images/projects/kasper.webp") no-repeat center;
+.projects .main-projects .project:nth-child(3) .image {
+    background: url("../images/projects/waad.png") no-repeat center;
     background-size: cover;
 }
+
+
+.projects .main-projects .project:last-child .image {
+    background: url("../images/projects/adel.png") no-repeat center;
+    background-size: cover;
+}
+
+
 
 .projects .main-projects .image:hover::before {
     opacity: 0;
